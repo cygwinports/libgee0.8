@@ -2,7 +2,7 @@ ORIG_PN="libgee"
 inherit gnome2
 
 NAME="libgee0.8"
-VERSION=0.16.1
+VERSION=0.18.0
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="GObject data structure library"
@@ -17,6 +17,7 @@ DEPEND="gnome-common
 
 PKG_NAMES="libgee0.8_2 libgee0.8-devel girepository-Gee0.8 vala-gee0.8"
 libgee0_8_2_CONTENTS="usr/bin/cyggee-0.8-2.dll usr/share/doc/"
+libgee0_8_devel_REQUIRES="girepository-Gee0.8 vala-gee0.8"
 libgee0_8_devel_CONTENTS="usr/include/ usr/lib/lib* usr/lib/pkgconfig/"
 girepository_Gee0_8_CONTENTS="usr/*/gir*/Gee-0.8.*"
 vala_gee0_8_CONTENTS="usr/share/vala/vapi/gee-0.8.*"
